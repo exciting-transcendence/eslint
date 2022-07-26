@@ -1,0 +1,36 @@
+{
+  "name": "@scarf005/eslint-config-transcendence",
+  "version": "1.0.0",
+  "description": "typescript configuration for transcendence project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exciting-transcendence/eslint-config-transcendence.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "scarf005",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/exciting-transcendence/eslint-config-transcendence/issues"
+  },
+  "homepage": "https://github.com/exciting-transcendence/eslint-config-transcendence#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1"
+  },
+  "peerDependency": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.30.1"
+  }
+}
