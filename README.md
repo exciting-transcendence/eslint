@@ -5,10 +5,11 @@
 1. 패키지 설치
 
 ```sh
-npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-prettier eslint-plugin-react
+npm install -D @scarf005/eslint-config-transcendence
 ```
 
-2. `.eslintrc.yml` 과 `.prettierrc.yml` 복사해서 최상위 디렉토리에 붙여넣기
+2. `.eslintrc.yml`에 `extends: "@scarf005/eslint-config-transcendence"` 추가
+3. `package.json`에 `"prettier": "@scarf005/prettier-config-transcendence"` 추가
 
 ## 예시
 

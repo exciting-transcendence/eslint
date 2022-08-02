@@ -1,6 +1,6 @@
 {
   "name": "@scarf005/eslint-config-transcendence",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "typescript configuration for transcendence project",
   "author": "scarf005",
   "license": "ISC",
@@ -8,6 +8,10 @@
     "url": "https://github.com/exciting-transcendence/eslint-config-transcendence/issues"
   },
   "homepage": "https://github.com/exciting-transcendence/eslint-config-transcendence#readme",
+  "publishConfig": {
+    "@scarf005:registry": "https://npm.pkg.github.com",
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/exciting-transcendence/eslint-config-transcendence.git"
