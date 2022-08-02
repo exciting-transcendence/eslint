@@ -4,8 +4,7 @@ module.exports = {
     jest: true,
   },
   globals: {},
-  parser:
-    '/home/scarf/Repo/transcendence/eslint/node_modules/@typescript-eslint/parser/dist/index.js',
+  parser: '/home/scarf/node_modules/@typescript-eslint/parser/dist/index.js',
   parserOptions: {
     project: '**/tsconfig.json',
     sourceType: 'module',

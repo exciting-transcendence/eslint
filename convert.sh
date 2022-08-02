@@ -1,7 +1,11 @@
 #!/bin/bash
 
-file='index.js'
+create_js() {
+  file='index.js'
 
-echo 'module.exports = ' >$file
-eslint --print-config .eslintrc.yml >>$file
-eslint --fix $file
+  echo 'module.exports = ' >$file
+  eslint --print-config .eslintrc.yml >>$file
+  eslint --fix $file
+}
+
+create_js

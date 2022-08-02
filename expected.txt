@@ -1,9 +1,17 @@
+   1:12  error    Delete `;`                              prettier/prettier
+   1:12  error    Extra semicolon                         semi
    2:7   error    Expected '===' and instead saw '=='     eqeqeq
-   6:1   error    Replace `(1·==·1)` with `1·==·1`        prettier/prettier
+   4:2   error    Delete `;;`                             prettier/prettier
+   4:2   error    Unnecessary semicolon                   @typescript-eslint/no-extra-semi
+   4:3   error    Unnecessary semicolon                   @typescript-eslint/no-extra-semi
+   6:1   error    Replace `(1·==·1);` with `1·==·1`       prettier/prettier
    6:4   error    Expected '===' and instead saw '=='     eqeqeq
+   6:9   error    Extra semicolon                         semi
    8:7   warning  'b' is assigned a value but never used  @typescript-eslint/no-unused-vars
   13:52  error    Insert `,`                              prettier/prettier
+  14:2   error    Delete `;`                              prettier/prettier
+  14:2   error    Extra semicolon                         semi
 
-✖ 5 problems (4 errors, 1 warning)
-  3 errors and 0 warnings potentially fixable with the `--fix` option.
+✖ 13 problems (12 errors, 1 warning)
+  11 errors and 0 warnings potentially fixable with the `--fix` option.
 

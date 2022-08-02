@@ -11,10 +11,11 @@ npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslin
 2. `.eslintrc.yml` 과 `.prettierrc.yml` 복사해서 최상위 디렉토리에 붙여넣기
 
 ## 예시
+
 ```ts
-const a = 3;
+const a = 3
 if (a == 2) {
-    console.log(a);
+  console.log(a)
 }
 ```
 
@@ -30,3 +31,7 @@ if (a == 2) {
   2 errors and 0 warnings potentially fixable with the `--fix` option.
 
 ```
+
+## 테스트에서 이상한 오류가 날 시
+
+`npm run convert` 이후 재시도
