@@ -1,19 +1,40 @@
 #!/bin/bash
 
-mkdir test
-cd test
+init_test() {
+  mkdir test
+  cd test
 
-npm init -y
-npm link @scarf005/eslint-config-transcendence
-cp ../test.ts .
-npm list
-# npm i -D @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslint-plugin-prettier eslint-plugin-react
-# cp ../test.ts ../.prettierrc.yml ../.eslintrc.yml .
+  npm init -y
+  # npm link @scarf005/eslint-config-transcendence
+  npm list
+  cp ../test.ts .
+}
 
-eslint test.ts | tail -n +3 >result.txt
+gen_lint() {
+  local file=$1
+  local format=${2:-result.txt}
+  eslint $file | tail -n +3 >$format
+}
 
-echo "Test diff:"
-diff result.txt ../expected.txt || echo "Test failed"
+run_test() {
+  gen_lint test.ts result.txt
 
-cd ..
-rm -rf test/
+  echo "Test diff:"
+  diff result.txt ../expected.txt || echo "Test failed"
+}
+
+teardown_test() {
+  cd ..
+  rm -rf test/
+}
+
+case $1 in
+  gen | generate | gentest)
+    gen_lint test.ts expected.txt
+    ;;
+  *)
+    init_test
+    run_test
+    teardown_test
+    ;;
+esac
