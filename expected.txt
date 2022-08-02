@@ -1,7 +1,9 @@
-  1:12  error  Delete `;`                                             prettier/prettier
-  2:7   error  Expected '===' and instead saw '=='                    eqeqeq
-  3:1   error  Replace `····console.log(a);` with `··console.log(a)`  prettier/prettier
+   2:7   error    Expected '===' and instead saw '=='     eqeqeq
+   6:1   error    Replace `(1·==·1)` with `1·==·1`        prettier/prettier
+   6:4   error    Expected '===' and instead saw '=='     eqeqeq
+   8:7   warning  'b' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  13:52  error    Insert `,`                              prettier/prettier
 
-✖ 3 problems (3 errors, 0 warnings)
-  2 errors and 0 warnings potentially fixable with the `--fix` option.
+✖ 5 problems (4 errors, 1 warning)
+  3 errors and 0 warnings potentially fixable with the `--fix` option.
 
