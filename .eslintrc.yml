@@ -20,3 +20,11 @@ rules:
   eqeqeq:
     - error
     - always
+  semi:
+    - error
+    - never
+  "@typescript-eslint/member-delimiter-style":
+    - error
+    - multiline:
+        delimiter: none
+        requireLast: false
