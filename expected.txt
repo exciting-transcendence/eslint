@@ -1,3 +1,20 @@
+
+
+  1:7   warning  'a' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  1:12  error    Delete `;`                              prettier/prettier
+  1:12  error    Extra semicolon                         semi
+
+
+  1:7   warning  'a' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  1:12  error    Delete `;`                              prettier/prettier
+  1:12  error    Extra semicolon                         semi
+
+
+  1:7   warning  'a' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  1:12  error    Delete `;`                              prettier/prettier
+  1:12  error    Extra semicolon                         semi
+
+
    1:12  error    Delete `;`                              prettier/prettier
    1:12  error    Extra semicolon                         semi
    2:7   error    Expected '===' and instead saw '=='     eqeqeq
@@ -12,6 +29,9 @@
   14:2   error    Delete `;`                              prettier/prettier
   14:2   error    Extra semicolon                         semi
 
-✖ 13 problems (12 errors, 1 warning)
-  11 errors and 0 warnings potentially fixable with the `--fix` option.
+
+  1:0  error  Parsing error: Unknown keyword or identifier. Did you mean 'function'?
+
+✖ 23 problems (19 errors, 4 warnings)
+  17 errors and 0 warnings potentially fixable with the `--fix` option.
 

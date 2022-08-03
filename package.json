@@ -1,6 +1,6 @@
 {
   "name": "@scarf005/eslint-config-transcendence",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "typescript configuration for transcendence project",
   "author": "scarf005",
   "license": "ISC",
@@ -26,21 +26,25 @@
   },
   "prettier": "@scarf005/prettier-config-transcendence",
   "devDependencies": {
+    "@scarf005/prettier-config-transcendence": "^1.0.1",
     "@typescript-eslint/eslint-plugin": ">=5.31.0",
     "@typescript-eslint/parser": ">=5.31.0",
     "eslint": ">=8.20.0",
     "eslint-plugin-prettier": ">=4.2.1",
     "eslint-plugin-react": ">=7.30.1",
+    "prettier": "^2.7.1",
     "typescript": ">=4.7.4",
-    "@scarf005/prettier-config-transcendence": ">=0.0.0"
+    "yaml": "^2.1.1"
   },
-  "peerDependency": {
-    "typescript": ">=4.7.4",
-    "eslint": ">=8.20.0",
+  "peerDependencies": {
+    "@scarf005/prettier-config-transcendence": ">=0.0.0",
     "@typescript-eslint/eslint-plugin": ">=5.31.0",
     "@typescript-eslint/parser": ">=5.31.0",
+    "eslint": ">=8.20.0",
     "eslint-plugin-prettier": ">=4.2.1",
     "eslint-plugin-react": ">=7.30.1",
-    "@scarf005/prettier-config-transcendence": ">=0.0.0"
+    "prettier": "^2.7.1",
+    "typescript": ">=4.7.4",
+    "yaml": "^2.1.1"
   }
 }

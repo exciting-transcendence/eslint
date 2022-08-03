@@ -5,6 +5,7 @@ parserOptions:
 plugins:
   - "@typescript-eslint/eslint-plugin"
   - prettier
+  - react
 extends:
   - plugin:@typescript-eslint/recommended
 root: true
