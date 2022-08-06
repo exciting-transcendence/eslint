@@ -1,9 +1,6 @@
 /* eslint-disable @typescript-eslint/no-unused-vars */
 // function
 {
-  const arrow_fn = () => 3
-  const arrowFn = () => 3
-
   // @ts-expect-error 2304
   const arrowComp = () => <div />
 
@@ -16,13 +13,20 @@
     return <div />
   }
 }
-
+// variables
+{
+  const [a, _] = [3, 4]
+  const _foo = 1
+  const arrow_fn = () => 3
+  const arrowFn = () => 3
+}
 // const and enums
 {
   enum Color {
     Red,
     GREEN,
   }
+  const myJSON = 3
   const foo = 3
   const IS_SNAKE_CASE = true
   const value = {
