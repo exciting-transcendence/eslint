@@ -26,9 +26,7 @@ init_test() {
   cat .eslintrc.yml
   # npm link $package_prettier
   # npm link $package_eslint
-  npm install $package_prettier $package_eslint
-  npx install-peerdeps --dev $package_eslint
-  npx install-peerdeps --dev $package_prettier
+  npm install $package_eslint
   npm list
 }
 
@@ -54,6 +52,6 @@ case $1 in
   *)
     init_test
     run_test
-    # teardown_test
+    teardown_test
     ;;
 esac

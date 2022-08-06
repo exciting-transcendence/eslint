@@ -1,6 +1,6 @@
 {
   "name": "@scarf005/eslint-config-transcendence",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "typescript configuration for transcendence project",
   "author": "scarf005",
   "license": "ISC",
